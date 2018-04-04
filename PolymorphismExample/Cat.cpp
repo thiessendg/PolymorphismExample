@@ -3,14 +3,14 @@
 #include <iostream>
 
 
-Cat::Cat()
-{
-}
-
-
-Cat::~Cat()
-{
-}
+//Cat::Cat()
+//{
+//}
+//
+//
+//Cat::~Cat()
+//{
+//}
 
 void Cat::speak()
 {

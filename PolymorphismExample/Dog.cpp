@@ -3,14 +3,14 @@
 #include <iostream>
 
 
-Dog::Dog()
-{
-}
-
-
-Dog::~Dog()
-{
-}
+//Dog::Dog()
+//{
+//}
+//
+//
+//Dog::~Dog()
+//{
+//}
 
 void Dog::speak()
 {

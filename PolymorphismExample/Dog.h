@@ -4,9 +4,9 @@ class Dog :
 	public Animal
 {
 public:
-	Dog();
-	virtual ~Dog();
-	void speak();
-	void showHappiness();
+	Dog() = default;
+	virtual ~Dog() = default;
+	void speak() override;
+	void showHappiness() override;
 };
 

@@ -4,9 +4,9 @@ class Cat :
 	public Animal
 {
 public:
-	Cat();
-	virtual ~Cat();
-	void speak();
-	void showHappiness();
+	Cat() = default;
+	virtual ~Cat() = default;
+	void speak() override;
+	void showHappiness() override;
 };
 
