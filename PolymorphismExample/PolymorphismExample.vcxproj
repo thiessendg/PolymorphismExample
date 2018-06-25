@@ -150,14 +150,15 @@
     <ClInclude Include="Animal.h" />
     <ClInclude Include="Cat.h" />
     <ClInclude Include="Dog.h" />
+    <ClInclude Include="Flea.h" />
     <ClInclude Include="Rabbit.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Animal.cpp" />
     <ClCompile Include="Cat.cpp" />
     <ClCompile Include="Dog.cpp" />
+    <ClCompile Include="Flea.cpp" />
     <ClCompile Include="PolymorphismExample.cpp" />
     <ClCompile Include="Rabbit.cpp" />
     <ClCompile Include="stdafx.cpp">

@@ -1,23 +1,41 @@
 #include "stdafx.h"
 #include "Cat.h"
-#include <iostream>
 
+Cat::Cat()
+    : hasFleas(false)
+{
+}
 
-//Cat::Cat()
-//{
-//}
-//
-//
 //Cat::~Cat()
 //{
 //}
 
 void Cat::speak()
 {
-	std::cout << "Meow" << std::endl;
+	printf_s("\tMeow\n");
 }
 
 void Cat::showHappiness()
 {
-	std::cout << "puuuuurrrrrr" << std::endl;
+	printf_s("\tpuuuuurrrrrr\n");
+}
+
+void Cat::setColor(std::string arg)
+{
+    color = arg;
+}
+
+void Cat::setLivesRemaining(int n)
+{
+    livesRemaining = n;
+}
+
+std::string Cat::getColor()
+{
+    return color;
+}
+
+int Cat::getLivesRemaining()
+{
+    return livesRemaining;
 }
